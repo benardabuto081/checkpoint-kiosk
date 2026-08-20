@@ -1,0 +1,93 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, Segoe UI, Roboto, sans-serif;
+  background: #0f172a;
+  color: #f1f5f9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.kiosk {
+  background: #1e293b;
+  padding: 48px;
+  border-radius: 16px;
+  width: 90%;
+  max-width: 480px;
+  text-align: center;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.4);
+}
+
+h1 {
+  margin-top: 0;
+  font-size: 1.75rem;
+}
+
+.scan-area {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin: 32px 0;
+}
+
+.scan-area label {
+  text-align: left;
+  font-size: 0.9rem;
+  color: #94a3b8;
+}
+
+.scan-area input {
+  padding: 14px;
+  font-size: 1.1rem;
+  border-radius: 8px;
+  border: 1px solid #334155;
+  background: #0f172a;
+  color: #f1f5f9;
+}
+
+.scan-area button {
+  padding: 16px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+  background: #3b82f6;
+  color: white;
+  cursor: pointer;
+}
+
+.scan-area button:hover {
+  background: #2563eb;
+}
+
+.status {
+  padding: 20px;
+  border-radius: 8px;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.status--idle {
+  background: #334155;
+  color: #cbd5e1;
+}
+
+.status--pending {
+  background: #78350f;
+  color: #fde68a;
+}
+
+.status--success {
+  background: #14532d;
+  color: #bbf7d0;
+}
+
+.status--error {
+  background: #7f1d1d;
+  color: #fecaca;
+}
