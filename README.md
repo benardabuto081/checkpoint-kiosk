@@ -99,9 +99,10 @@ simulation grading independent problem-solving (Days 1-2, solo
 prototype with an unfamiliar tool), real adaptation to a
 non-negotiable requirement change (Days 3-5), and honest
 documentation of trade-offs made under deadline pressure. Frontend
-groundwork by Koketso Matobako; the pivot itself — async backend
+groundwork by Koketso Matobako; the pivot itself - async backend
 rebuild, mock vendor, webhook verification — was completed
 individually by Bernard Abuto for this individual submission.
+
 
 
 
