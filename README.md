@@ -7,11 +7,13 @@
 
 > **Project Motto:** *Scan once. Trust the confirmation.*
 
-**Context:** Solo project built for [Power Learn Project Africa's](https://powerlearnprojectafrica.org)
+**Context:** Individual assignment submission for [Power Learn Project Africa's](https://powerlearnprojectafrica.org)
 "Meridian Pivot" sprint — a 1-week simulation of a real client
 engagement, including a genuine, non-negotiable mid-sprint
-requirement change delivered without warning. This is an individual
-assignment submission, not a freelance or commercial project.
+requirement change delivered without warning. The original kiosk
+frontend (Phase A) was contributed by [Koketso Matobako](https://github.com/tweety-KM);
+the backend, database, mock vendor, webhook system, and the full
+Day 4 async pivot were built individually by Bernard Abuto.
 
 An event check-in kiosk built for a fictional client (Solstice Events
 Co.), rebuilt mid-sprint from a blocking, synchronous vendor call to
@@ -92,8 +94,14 @@ Then open `frontend/index.html` in a browser.
 
 ## Assignment Context
 
-Built individually as part of PLP Group 90's Meridian Pivot sprint:
-a working simulation grading independent problem-solving (Days 1-2,
-solo prototype with an unfamiliar tool), real adaptation to a
-non-negotiable requirement change (Days 3-5, this repo), and honest
-documentation of trade-offs made under deadline pressure.
+Built as part of PLP Group 90's Meridian Pivot sprint: a working
+simulation grading independent problem-solving (Days 1-2, solo
+prototype with an unfamiliar tool), real adaptation to a
+non-negotiable requirement change (Days 3-5), and honest
+documentation of trade-offs made under deadline pressure. Frontend
+groundwork by Koketso Matobako; the pivot itself — async backend
+rebuild, mock vendor, webhook verification — was completed
+individually by Bernard Abuto for this individual submission.
+
+
+
