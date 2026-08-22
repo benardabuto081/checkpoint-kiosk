@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Solstice Events - Check-In Kiosk</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="kiosk">
+    <h1>Event Check-In</h1>
+
+    <div class="scan-area">
+      <label for="attendeeId">Attendee ID</label>
+      <input type="text" id="attendeeId" placeholder="e.g. ATT001" />
+      <button id="scanBtn">Scan</button>
+    </div>
+
+    <div id="statusArea" class="status status--idle">
+      Waiting for scan...
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
